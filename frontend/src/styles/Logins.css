@@ -1,0 +1,101 @@
+/* Center the login box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eec6c6;
+  }
+  
+  /* Style the login form */
+  .login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Style input fields */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Style Login Button */
+  /* Stylish Login Button */
+.login-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b); /* Gradient background */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 30px; /* Rounded edges */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(255, 65, 108, 0.3); /* Soft shadow */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Hover effect */
+  .login-btn:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0px 6px 12px rgba(255, 65, 108, 0.5);
+  }
+  
+  /* Button Press (Click) Effect */
+  .login-btn:active {
+    transform: scale(0.95);
+    box-shadow: 0px 3px 6px rgba(255, 65, 108, 0.4);
+  }
+  
+ 
+  /* Style Register Link */
+/* Stylish Register Link */
+.register-link {
+    color: #ff416c;  /* Attractive pinkish color */
+    font-weight: bold;
+    text-decoration: none; /* Remove default underline */
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  /* Underline effect */
+  .register-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .register-link:hover {
+    color: #ff4b2b;
+  }
+  
+  .register-link:hover::after {
+    transform: scaleX(1);
+  }
+  
+  

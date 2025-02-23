@@ -1,0 +1,21 @@
+.background {
+  
+  background-size: cover;
+  background-position: center;
+  height: 50vh; /* Set height */
+  display: flex;
+  align-items: center;  /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  position: relative;
+}
+
+.heading {
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.931);
+  text-shadow: 2px 2px 5px rgba(8, 8, 8, 0.5);
+  text-align: center; /* Ensure text is centered */
+  position: absolute; /* Keep text in place */
+  top: 70%; /* Move text down */
+  left: 50%; /* Move text to the center */
+  transform: translate(-50%, -50%); /* Perfect centering */
+}
